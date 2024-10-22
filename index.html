@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="background-color: rgb(18, 27, 38)">
+    <div id="game-info" style="color: white">
+      <p>Turn: <span id="display-turn"></span></p>
+      <p>Info: <span id="display-info"></span></p>
+    </div>
+    <div id="gamesboard-container" style="justify-content: center"></div>
+
+    <div class="menu">
+      <div class="option-container">
+        <div id="0" class="destroyer-preview destroyer" draggable="true"></div>
+        <div id="1" class="submarine-preview submarine" draggable="true"></div>
+        <div id="2" class="cruiser-preview cruiser" draggable="true"></div>
+        <div id="4" class="carrier-preview carrier" draggable="true"></div>
+        <div id="3" class="battleship-preview battleship" draggable="true"></div>
+      </div>
+    </div>
+    <button id="flip">Shuffle Ships</button>
+    <button id="start">Start Game</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

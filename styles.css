@@ -1,0 +1,119 @@
+.game-board {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  width: 50px;
+  height: 50px;
+  border-radius: 0.1cm;
+  border: solid 1px lightblue;
+  box-sizing: border-box;
+  
+}
+.menu {
+  justify-content: center;
+  padding-left: 6.5cm;
+}
+#gamesboard-container {
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5cm;
+}
+.option-container {
+  width: 1000px;
+  height: 70px;
+  background-color: rgb(76, 127, 134);
+  display: flex;
+  align-items: center;
+  margin: 30px 0px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.destroyer-preview {
+  width: 40px;
+  height: 20px;
+  margin: 3px;
+  background-color: green;
+  border: solid 1px lightblue;
+
+  border-radius: 0.9cm;
+}
+.destroyer {
+  background-color: green;
+  border: solid 1px lightblue;
+
+}
+.submarine-preview {
+  width: 60px;
+  height: 20px;
+  margin: 3px;
+  background-color: rgb(64, 64, 133);
+  border: solid 1px lightblue;
+  border-radius: 0.9cm;
+}
+.submarine {
+  background-color: rgb(64, 64, 133);
+  border: solid 1px lightblue;
+}
+.cruiser-preview {
+  width: 60px;
+  height: 20px;
+  margin: 3px;
+  background-color: purple;
+  border: solid 1px lightblue;
+
+  border-radius: 0.9cm;
+}
+.cruiser {
+  background-color: purple;
+  border: solid 1px lightblue;
+}
+.carrier-preview {
+  width: 100px;
+  height: 20px;
+  margin: 3px;
+  background-color: rgb(189, 78, 78);
+  border: solid 1px lightblue;
+
+  border-radius: 0.9cm;
+}
+.carrier {
+  background-color: rgb(189, 78, 78);
+  border: solid 1px lightblue;
+
+
+}
+.battleship-preview {
+  width: 80px;
+  height: 20px;
+  margin: 3px;
+  background-color: rgb(159, 159, 44);
+  border: solid 1px lightblue;
+
+  border-radius: 0.9cm;
+}
+.battleship {
+  background-color: rgb(159, 159, 44);
+  border: solid 1px lightblue;
+
+}
+.hover {
+  background-color: gray;
+}
+.boom {
+  background-color: red;
+}
+.empty {
+  background-color: white;
+}
+#cpu .destroyer,
+#cpu .cruiser,
+#cpu .submarine,
+#cpu .battleship,
+#cpu .carrier {
+  background-color: rgb(17, 45, 49);
+}
